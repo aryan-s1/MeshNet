@@ -4,7 +4,7 @@ require 'cudnn'
 require 'cutorch'
 
 -- number of layers
-n_layers = 8
+n_layers=8
 
 -- input 4th dimension
 input = {1, 21, 21, 21, 21, 21, 21, 21}
